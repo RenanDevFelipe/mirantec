@@ -1,0 +1,92 @@
+.menu-burger{
+    width: 36px;
+    height: 36px;
+    cursor: pointer;
+    display: none;
+}
+
+.menu-burger div{
+    width: 32px;
+    height: 2px;
+    background: #fff;
+    margin: 8px;
+    transition: 0.3s;
+}
+
+.menu-principal.open-menu{
+    transform: translateX(0);
+}
+
+.menu-burger.lines #line1{
+    transform: rotate(-45deg) translate(-2px, 8px);
+}
+
+.menu-burger.lines #line2{
+   display: none;
+}
+
+.menu-burger.lines #line3{
+   transform: rotate(45deg) translate(2px, -7px);
+}
+
+@media (max-width: 768px){
+    .menu-principal{
+        position: absolute;
+        top: 10vh;
+        width: 95%;
+        background: #395b64;
+        padding: 10px;
+        border-radius: 0 0 20px 20px;
+        transform: translateX(-120%);
+        
+    }
+
+    .menu-burger{
+        display: block;
+    }
+
+    .menu-principal ul{
+        flex-direction: column;
+        height: 50vw;
+        text-align: center;
+        justify-content: space-around;
+        
+        
+    }
+
+    .button-start-now{
+        display: none;
+    }
+
+   
+
+    .menu-principal.open-menu .line1{
+        opacity: 0;
+        transition: 0.3s;
+    }
+
+    .paramt-three{
+        margin-left: 10%;
+        margin-top: 8%;
+    }
+
+    .paramt-three h1{
+        font-size: 35px;
+    }
+
+    .paramt-three p{
+        font-size: 12px;
+    }
+    
+    .paramt-three .paramt-three-links{
+        font-size: 10px;
+    }
+    
+   .footer-secundary p{
+    font-size: 10px;
+   }
+
+   .logo-rede-sociais{
+    margin-top: 20%;
+   }
+}

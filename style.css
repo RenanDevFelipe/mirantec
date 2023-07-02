@@ -1,0 +1,426 @@
+*{
+    padding: 0;
+    margin: 0;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+
+.nav-bar-principal{
+    height: 10vh;
+    align-items: center;
+    display: flex;
+    justify-content: space-evenly;
+    background: #395b64;
+    box-shadow: 0 2px 4px;
+    flex-wrap: wrap;
+}
+
+.nav-bar-principal .logo-principal{
+    text-transform: uppercase;
+    color: #f9f9f9;
+    font-size: 14px; 
+    letter-spacing: 2px;  
+}
+
+.nav-bar-principal .menu-principal{
+    transition: 0.5s;
+}
+
+.nav-bar-principal .menu-principal ul{
+    display: flex;
+    list-style: none;
+    gap: 0.5rem;
+}
+
+.nav-bar-principal .menu-principal a{
+    text-decoration: none;
+    color: #f9f9f9;
+    padding: 5px 20px;
+    font-size: 15px;
+    letter-spacing: 1px;
+    transition: 0.3s;
+}
+
+.nav-bar-principal .button-start-now a{
+    text-decoration: none;
+    color: #f9f9f9;
+    font-size: 10px;
+    padding: 10px 20px;
+    border: 2px solid darkcyan;
+    border-radius: 5px;
+    text-transform: uppercase;
+    letter-spacing: 2px;
+    transition: .5s;
+}
+
+.nav-bar-principal .button-start-now a:hover{
+    background-color: darkcyan;
+    color: #f9f9f9;
+}
+
+.nav-bar-principal .button-start-now{
+    margin-left: -60px;
+}
+
+section:nth-child(1){
+    display: flex;
+    height: 90vh;
+    background: rgba(0, 0, 12, 0.7) url(rear-view-businessman-talking-phone-city.jpg);
+    background-size: cover;
+    background-position: center;
+    background-blend-mode: darken;
+
+}
+
+section:nth-child(1) .first-paramt{
+    margin-left: 15%;
+    margin-top: 10%;
+}
+
+.first-paramt p{
+    color: aliceblue;
+}
+
+.first-paramt #p-mirantec, .paramt-two #p-mirantec{
+    color: darkcyan;
+    text-transform: uppercase;
+    letter-spacing: 5px;
+    font-size: 11px;
+    font-weight: 700;
+}
+
+.first-paramt h1{
+    color: aliceblue;
+    font-size: 50px;
+    margin-bottom: 10px;
+}
+
+.button-first-paramt{
+    margin-top: 40px;
+}
+
+.button-first-paramt a{
+    text-decoration: none;
+    padding: 10px 20px;
+    border: 2px solid darkcyan;
+    color: aliceblue;
+    text-transform: uppercase;
+    letter-spacing: 3px;
+    font-size: 10px;
+    border-radius: 5px;
+    transition: .5s;
+}
+
+.button-first-paramt a:hover{
+    background-color: darkcyan;
+    color: #f9f9f9;
+}
+
+section:nth-child(2){
+    display: grid;
+    justify-content: center;
+    background: #082032;
+    padding: 20px;
+}
+
+.paramt-two #p-mirantec{
+    font-size: 10px;
+}
+
+.paramt-two {
+    margin-top: 10%;
+    text-align: center;
+}
+
+.paramt-two h1{
+    color: antiquewhite;
+    font-size: 30px;
+    margin-bottom: 2%;
+}
+
+.paramt-two pl{
+    font-size: 12px;
+    color: antiquewhite;
+    line-height: 20px;
+}
+
+.column-card-mirantec{
+    border: 2px solid darkcyan;
+    text-align: center;
+    width: 220px;
+    height: 180px;
+    padding: 30px;
+    border-radius: 10px;
+}
+
+.column-card-mirantec img{
+    height: 120px;
+}
+
+.column-card-mirantec i{
+    color: gold;
+    font-size: 12px;
+}
+
+.column-card-mirantec .rankin{
+    color: darkcyan;
+    font-size: 10px;
+    text-transform: uppercase;
+    letter-spacing: 2px;
+}
+
+.container-card{
+    display: flex;
+    justify-content: center;
+    gap: 3rem;
+    flex-wrap: wrap;
+    background: #082032;
+}
+
+section:nth-child(3){
+    display: flex;
+    width: 100%;
+    height: 80vh;
+    background: rgba(0, 0, 12, 0.7) url(young-adult-standing-watching-city-life-adventure-generative-ai.jpg);
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-blend-mode: darken;
+    background-attachment: fixed;
+}
+
+.paramt-three{
+    margin-left: 15%;
+    margin-top: 8%;
+}
+
+.paramt-three #p-mirantec{
+    color: darkcyan;
+    letter-spacing: 3px;
+    font-size: 14px;
+}
+
+.paramt-three h1{
+    color: aliceblue;
+    font-size: 40px;
+    margin-bottom: 2%;
+}
+
+.paramt-three p{
+    color: aliceblue;
+}
+
+.paramt-three .paramt-three-links{
+    margin-top: 2%;
+    display: flex;
+    gap: 2rem;
+}
+
+.paramt-three .paramt-three-links i{
+    color: aliceblue;
+    font-size: 12px;
+    margin-right: 2px;
+    align-items: center;
+    padding: 4px;
+    background-color: darkcyan;
+    border-radius: 100px;
+}
+
+.paramt-three .paramt-three-links span{
+    align-items: center;
+}
+
+.paramt-three .paramt-three-links a{
+    text-decoration: none;
+    color: antiquewhite;
+}
+
+.paramt-three .paramt-three-links a:hover{
+    color: cornflowerblue;
+}
+
+.paramt-three .paramt-three-button{
+    margin-top: 6%;
+}
+
+.paramt-three .paramt-three-button a{
+    text-decoration: none;
+    color: #f9f9f9;
+    font-size: 10px;
+    padding: 10px 20px;
+    border: 2px solid darkcyan;
+    border-radius: 5px;
+    text-transform: uppercase;
+    letter-spacing: 2px;
+    transition: .5s;
+}
+
+.paramt-three .paramt-three-button a:hover{
+    background-color: darkcyan;
+    color: #f9f9f9;
+}
+
+.paramt-products{
+    width: 100%;
+    background: #082032;
+    display: flex;
+    flex-direction: column;
+    padding-bottom: 50px;
+}
+
+.paramt-products .paramt-products-title #p-mirantec{
+    color: darkcyan;
+    font-size: 12px;
+    letter-spacing: 3px;
+}
+
+.paramt-products .paramt-products-title{
+    margin-top: 2%;
+    text-align: center;
+}
+
+.paramt-products .paramt-products-title h1{
+    color: antiquewhite;
+    font-size: 30px;
+}
+
+.paramt-products .paramt-products-title p{
+    color: antiquewhite;
+    margin-top: 1%;
+    font-size: 12px;
+}
+
+.container-products-cards{
+    display: flex;
+    gap: 2rem;
+    justify-content: center;
+    flex-wrap: wrap;
+}
+
+.card-products{
+    width: 280px;
+    height: 390px;
+    border: 1px solid darkcyan;
+    margin-top: 4%;
+    justify-content: center;
+    padding: 20px;
+    border-radius: 20px;
+}
+
+.container-products-cards .valor-mensal-products span{
+    display: flex;
+    gap: 0.4rem;
+    justify-content: center;
+    color: #f9f9f9;
+}
+
+.container-products-cards .valor-mensal-products{
+    margin-top: 15px;
+    text-align: center;
+}
+
+.card-products .valor-mensal-products span p{
+    text-decoration: line-through;
+    
+}
+
+.card-products .valor-mensal-products h1{
+    color: darkcyan;
+    font-size: 40px;
+}
+
+.card-products .start-card-products{
+    text-align: center;
+}
+
+.card-products .start-card-products h1{
+    color: darkcyan;
+}
+
+.card-products .start-card-products p{
+    color: #f9f9f9;
+}
+
+.card-products .beneficios-card-products span{
+    display: flex;
+    align-items: center;
+    color: aliceblue;
+    gap: 1rem;
+    margin-top: 12px;
+}
+
+.card-products .beneficios-card-products span p{
+    font-size: 12px;
+}
+
+.card-products .beneficios-card-products span i{
+    font-size: 18px;
+}
+
+.card-products .button-card-products{
+    text-align: center;
+    margin-top: 30px;
+}
+
+.card-products .button-card-products a{
+    text-decoration: none;
+    color: #f9f9f9;
+    font-size: 10px;
+    padding: 10px 20px;
+    border: 2px solid darkcyan;
+    border-radius: 5px;
+    text-transform: uppercase;
+    letter-spacing: 2px;
+    transition: .5s;
+}
+
+.card-products .button-card-products a:hover{
+    background: darkcyan;
+}
+
+/* FOOTER FOOTER */
+
+.footer-primary{
+    width: 100%;
+    height: 40vh;
+    background: #395b64;
+    display: flex;
+    flex-direction: column;
+}
+
+.footer-primary .logo-rede-sociais{
+    text-align: center;
+    margin-top: 3%;
+}
+
+.footer-primary .logo-rede-sociais i{
+    width: 15px;
+    padding: 15px;
+    background: #f9f9f9;
+    color: #395b64;
+    border-radius: 100px;
+    margin-left: 10px;
+}
+
+.footer-primary .contato-footer{
+    display: flex;
+    gap: 2rem;
+    color: aliceblue;
+    font-size: 12px;
+    margin-top: 1%;
+    justify-content: center;
+}
+
+.footer-primary .contato-footer span{
+    display: flex;
+    align-items: center;
+    gap: 0.5rem;
+}
+
+.footer-secundary{
+    height: 5vh;
+    align-items: center;
+    background: #082032;
+    color: #f9f9f9;
+    display: flex;
+    justify-content: space-around;
+    font-size: 12px;
+}
