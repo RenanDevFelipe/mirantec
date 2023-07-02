@@ -30,6 +30,16 @@
 }
 
 @media (max-width: 768px){
+
+    section:nth-child(1){
+        height: 80vh;
+    }
+
+    section:nth-child(3){
+        height: 70vh;
+    }
+
+
     .menu-principal{
         position: absolute;
         top: 10vh;
