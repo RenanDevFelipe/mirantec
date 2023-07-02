@@ -91,6 +91,10 @@
     .paramt-three .paramt-three-links{
         font-size: 10px;
     }
+
+    .footer-primary{
+        height: 30vh;
+    }
     
    .footer-secundary p{
     font-size: 10px;
