@@ -127,7 +127,7 @@ section:nth-child(2){
 }
 
 .paramt-two {
-    margin-top: 10%;
+    margin-top: 3%;
     text-align: center;
 }
 
@@ -150,6 +150,8 @@ section:nth-child(2){
     height: 180px;
     padding: 30px;
     border-radius: 10px;
+    margin-top: 8%;
+    margin-bottom: 5%;
 }
 
 .column-card-mirantec img{
