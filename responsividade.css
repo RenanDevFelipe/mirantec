@@ -104,3 +104,10 @@
     margin-top: 20%;
    }
 }
+
+.nav-bar-principal.nav-fixed-top{
+    position: fixed;
+    width: 100%;
+    z-index: 999;
+    transition: 0.5s ease-in-out;
+}
